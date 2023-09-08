@@ -17,15 +17,15 @@ int main(void)
 	/* Setting a condition for output */
 	if (n > 0)
 	{
-		puts("is positive");
+	  puts("%u is positive", n);
 	}
 	else if (n == 0)
 	{
-		puts("is zero");
+	  puts("%u is zero", n);
 	}
 	else
 	{
-		puts("is negative");
+	  puts("%d is negative", n);
 	}
 
 	return (0);
