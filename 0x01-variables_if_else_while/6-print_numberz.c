@@ -2,18 +2,17 @@
 /**
  * main - entry point
  *
- * Description: Printing decimal number.
+ * Description: Passing inter as character.
  *
- *Return: always 0
+ * Return: Always 0
  */
 int main(void)
 {
-	/* Declaring a variable */
 	int num = 0;
 
 	while (num <= 9)
 	{
-		printf("%d", num);
+		putchar('0' + num);
 		num++;
 	}
 	return (0);
