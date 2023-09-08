@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Main - entry point
+ * main - entry point
  *
  * Descripion: This program prints the alphabet lowercase except q,
  * Return: always 0
